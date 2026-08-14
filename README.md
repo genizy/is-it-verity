@@ -3,13 +3,7 @@
 Mod based on videos by [NathanLive](https://www.youtube.com/channel/UCxhU6cKU08wh5rX7ekqQDKQ) and [CubixTube](https://www.youtube.com/channel/UCZ9Jaw5DoU5FnsHmmByk1Ig)
 
 
-<details>
-<summary>Cubix and Nathan Video Example</summary>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/32nPJGbpOqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-</details>
-
+Cubix and Nathan Video Example: https://youtu.be/32nPJGbpOqA
 
 
 ## DISCLAIMER:

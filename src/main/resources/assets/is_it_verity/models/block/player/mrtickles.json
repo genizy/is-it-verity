@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/mrtickles/front",
+    "up": "is_it_verity:block/player/mrtickles/top",
+    "down": "is_it_verity:block/player/mrtickles/bottom",
+    "west": "is_it_verity:block/player/mrtickles/front",
+    "east": "is_it_verity:block/player/mrtickles/back",
+    "north": "is_it_verity:block/player/mrtickles/right",
+    "south": "is_it_verity:block/player/mrtickles/left"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/others/couple_with_heart_woman_person_medium_skin_tone_no_skin_tone"
+  }
+}

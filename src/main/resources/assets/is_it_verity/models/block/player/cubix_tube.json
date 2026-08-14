@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/cubix_tube/front",
+    "up": "is_it_verity:block/player/cubix_tube/top",
+    "down": "is_it_verity:block/player/cubix_tube/bottom",
+    "west": "is_it_verity:block/player/cubix_tube/front",
+    "east": "is_it_verity:block/player/cubix_tube/back",
+    "north": "is_it_verity:block/player/cubix_tube/right",
+    "south": "is_it_verity:block/player/cubix_tube/left"
+  }
+}

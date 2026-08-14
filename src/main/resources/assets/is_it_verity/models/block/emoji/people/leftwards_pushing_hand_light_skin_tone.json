@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/people/leftwards_pushing_hand_light_skin_tone"
+  }
+}

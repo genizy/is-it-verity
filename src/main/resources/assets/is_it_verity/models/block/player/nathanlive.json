@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/nathanlive/front",
+    "up": "is_it_verity:block/player/nathanlive/top",
+    "down": "is_it_verity:block/player/nathanlive/bottom",
+    "west": "is_it_verity:block/player/nathanlive/front",
+    "east": "is_it_verity:block/player/nathanlive/back",
+    "north": "is_it_verity:block/player/nathanlive/right",
+    "south": "is_it_verity:block/player/nathanlive/left"
+  }
+}

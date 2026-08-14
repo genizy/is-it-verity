@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/symbols/diamond_with_a_dot"
+  }
+}

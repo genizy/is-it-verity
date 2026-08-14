@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "is_it_verity",
+  "version": "${version}",
+  "name": "is it verity?",
+  "description": "mod to make brainrot youtube shorts like NathanLive and CubixTube",
+  "authors": ["mrTickles / breadbb / genizy"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/is_it_verity/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "breadbb.is_it_verity.client.Is_it_verityClient"
+    ],
+    "main": [
+      "breadbb.is_it_verity.Is_it_verity"
+    ]
+  },
+  "mixins": [
+    "is_it_verity.mixins.json",
+    {
+      "config": "is_it_verity.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}

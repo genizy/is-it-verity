@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/people/person_playing_water_polo_medium_dark_skin_tone"
+  }
+}

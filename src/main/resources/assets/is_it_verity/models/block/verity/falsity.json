@@ -1,0 +1,8 @@
+{
+  "fabric:type": "is_it_verity:sphere",
+  "parent": "is_it_verity:block/base/verity_base",
+  "textures": {
+    "sphere": "is_it_verity:block/verity/falsity",
+    "particle": "#sphere"
+  }
+}

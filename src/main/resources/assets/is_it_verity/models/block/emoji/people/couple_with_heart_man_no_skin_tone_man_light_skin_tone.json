@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/people/couple_with_heart_man_no_skin_tone_man_light_skin_tone"
+  }
+}

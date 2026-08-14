@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/people/ear_with_hearing_aid_light_skin_tone"
+  }
+}

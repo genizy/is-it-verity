@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "is_it_verity:block/emoji/people/woman_in_manual_wheelchair_facing_right_dark_skin_tone"
+  }
+}

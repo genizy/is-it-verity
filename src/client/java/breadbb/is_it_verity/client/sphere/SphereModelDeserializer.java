@@ -19,6 +19,7 @@ import net.fabricmc.fabric.api.client.model.loading.v1.UnbakedModelDeserializer;
 public class SphereModelDeserializer implements UnbakedModelDeserializer {
 	public static final String TEXTURE_SLOT = "sphere";
 	public static final String HORN_SLOT = "horn";
+	public static final String EYE_SLOT = "eye";
 
 	private static final int DEFAULT_RINGS = 12;
 	private static final int DEFAULT_SEGMENTS = 24;
@@ -27,6 +28,9 @@ public class SphereModelDeserializer implements UnbakedModelDeserializer {
 	private static final float DEFAULT_TILT = 25.0F;
 	private static final float DEFAULT_LENGTH = 0.15F;
 	private static final float DEFAULT_WIDTH = 0.1F;
+	private static final int DEFAULT_COLOR = 0xFFFFFFFF;
+	private static final float DEFAULT_SIZE = 0.12F;
+	private static final float DEFAULT_SINK = 1.0F;
 
 	@Override
 	public UnbakedModel deserialize(JsonObject json, JsonDeserializationContext context) {
@@ -56,7 +60,8 @@ public class SphereModelDeserializer implements UnbakedModelDeserializer {
 		Identifier parentLocation = parent.isEmpty() ? null : Identifier.parse(parent);
 
 		return new CuboidModel(
-				new SphereGeometry(TEXTURE_SLOT, HORN_SLOT, rings, segments, radius, outline, horns(json)),
+				new SphereGeometry(TEXTURE_SLOT, HORN_SLOT, rings, segments, radius, outline, horns(json),
+						eyes(json)),
 				guiLight,
 				ambientOcclusion,
 				transforms,
@@ -75,16 +80,50 @@ public class SphereModelDeserializer implements UnbakedModelDeserializer {
 		for (JsonElement element : GsonHelper.getAsJsonArray(json, "horns")) {
 			JsonObject horn = element.getAsJsonObject();
 			float tilt = GsonHelper.getAsFloat(horn, "tilt", DEFAULT_TILT);
+			float width = Math.clamp(GsonHelper.getAsFloat(horn, "width", DEFAULT_WIDTH), 0.01F, 0.5F);
 
 			horns.add(new SphereGeometry.Horn(
 					GsonHelper.getAsFloat(horn, "around", 0.0F),
 					tilt,
 					GsonHelper.getAsFloat(horn, "aim", tilt),
 					Math.clamp(GsonHelper.getAsFloat(horn, "length", DEFAULT_LENGTH), 0.0F, 0.5F),
-					Math.clamp(GsonHelper.getAsFloat(horn, "width", DEFAULT_WIDTH), 0.01F, 0.5F)
+					width,
+					Math.clamp(GsonHelper.getAsFloat(horn, "thickness", width), 0.01F, 0.5F),
+					Math.clamp(GsonHelper.getAsFloat(horn, "taper", 0.0F), 0.0F, 0.95F),
+					colour(GsonHelper.getAsString(horn, "color", ""))
 			));
 		}
 
 		return List.copyOf(horns);
+	}
+
+	private static List<SphereGeometry.Eye> eyes(JsonObject json) {
+		List<SphereGeometry.Eye> eyes = new ArrayList<>();
+
+		if (!json.has("eyes")) {
+			return List.copyOf(eyes);
+		}
+
+		for (JsonElement element : GsonHelper.getAsJsonArray(json, "eyes")) {
+			JsonObject eye = element.getAsJsonObject();
+
+			eyes.add(new SphereGeometry.Eye(
+					GsonHelper.getAsFloat(eye, "around", 0.0F),
+					GsonHelper.getAsFloat(eye, "tilt", 0.0F),
+					Math.clamp(GsonHelper.getAsFloat(eye, "size", DEFAULT_SIZE), 0.01F, 0.5F),
+					Math.clamp(GsonHelper.getAsFloat(eye, "sink", DEFAULT_SINK), 0.0F, 1.5F),
+					GsonHelper.getAsString(eye, "texture", EYE_SLOT)
+			));
+		}
+
+		return List.copyOf(eyes);
+	}
+
+	private static int colour(String value) {
+		if (value.isEmpty()) {
+			return DEFAULT_COLOR;
+		}
+
+		return 0xFF000000 | Integer.parseInt(value.startsWith("#") ? value.substring(1) : value, 16);
 	}
 }

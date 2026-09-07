@@ -1,0 +1,40 @@
+{
+  "fabric:type": "is_it_verity:sphere",
+  "parent": "is_it_verity:block/base/verity_base",
+  "radius": 0.42,
+  "horns": [
+    {
+      "around": -90,
+      "tilt": 62,
+      "aim": 15,
+      "length": 0.3,
+      "width": 0.138,
+      "thickness": 0.05,
+      "taper": 0.45,
+      "color": "#F07A76"
+    }
+  ],
+  "eyes": [
+    {
+      "around": 133.0,
+      "tilt": 58.3,
+      "size": 0.15,
+      "sink": 0.92,
+      "texture": "eye_left"
+    },
+    {
+      "around": 48.6,
+      "tilt": 59.2,
+      "size": 0.15,
+      "sink": 0.92,
+      "texture": "eye_right"
+    }
+  ],
+  "textures": {
+    "sphere": "is_it_verity:block/verity/freakity",
+    "particle": "#sphere",
+    "horn": "is_it_verity:block/gd-faces/horn",
+    "eye_left": "is_it_verity:block/verity/freakity_eye_left",
+    "eye_right": "is_it_verity:block/verity/freakity_eye_right"
+  }
+}

@@ -17,9 +17,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 
+import net.minecraft.world.level.material.PushReaction;
+
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 
 import breadbb.is_it_verity.Is_it_verity;
+import breadbb.is_it_verity.obesity.ObesityBlock;
+import breadbb.is_it_verity.obesity.ObesityFillerBlock;
 
 public final class VerityBlocks {
 	private static final List<Block> REGISTERED = new ArrayList<>();
@@ -35,6 +39,14 @@ public final class VerityBlocks {
 	public static final Block BLACK_VERITY_BLOCK = register("black_verity");
 	public static final Block GREEN_VERITY_BLOCK = register("green_verity");
 	public static final Block QUACKITY_BLOCK = register("quackity");
+	public static final Block FREAKITY_BLOCK = register("freakity");
+	public static final Block MOGGITY_BLOCK = register("moggity");
+	public static final Block OBESITY_FILLER = registerFiller("obesity_filler");
+	public static final Block OBESITY_BLOCK = registerObesity("obesity", 1);
+	public static final Block MEDIUM_OBESITY_BLOCK = registerObesity("medium_obesity", 2);
+	public static final Block BIG_OBESITY_BLOCK = registerObesity("big_obesity", 3);
+	public static final Block LARGE_OBESITY_BLOCK = registerObesity("large_obesity", 4);
+	public static final Block OBESE_OBESITY_BLOCK = registerObesity("obese_obesity", 5);
 	// ─────────────────────────────────────────────────────────────────────────
 
 	private VerityBlocks() {
@@ -62,6 +74,44 @@ public final class VerityBlocks {
 
 		REGISTERED.add(block);
 		return block;
+	}
+
+	public static Block registerObesity(String name, int size) {
+		Identifier id = Is_it_verity.id(name);
+
+		Block block = Registry.register(
+				BuiltInRegistries.BLOCK,
+				id,
+				new ObesityBlock(defaultSettings().setId(ResourceKey.create(Registries.BLOCK, id)), size)
+		);
+
+		ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, id);
+		Registry.register(
+				BuiltInRegistries.ITEM,
+				itemKey,
+				new BlockItem(block, new Item.Properties().setId(itemKey))
+		);
+
+		REGISTERED.add(block);
+		return block;
+	}
+
+	public static Block registerFiller(String name) {
+		Identifier id = Is_it_verity.id(name);
+
+		return Registry.register(
+				BuiltInRegistries.BLOCK,
+				id,
+				new ObesityFillerBlock(BlockBehaviour.Properties.of()
+						.strength(1.0F)
+						.sound(SoundType.STONE)
+						.noOcclusion()
+						.isSuffocating((state, level, pos) -> false)
+						.isViewBlocking((state, level, pos) -> false)
+						.noLootTable()
+						.pushReaction(PushReaction.BLOCK)
+						.setId(ResourceKey.create(Registries.BLOCK, id)))
+		);
 	}
 
 	public static BlockBehaviour.Properties defaultSettings() {

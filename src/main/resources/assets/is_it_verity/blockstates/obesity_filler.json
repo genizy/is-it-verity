@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "is_it_verity:block/verity/obesity_filler"
+      }
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "gd_unrated": {
+    "subtitle": "subtitles.is_it_verity.gd_unrated",
+    "sounds": [
+      {
+        "name": "is_it_verity:na"
+      }
+    ]
+  },
+  "gd_auto": {
+    "subtitle": "subtitles.is_it_verity.gd_auto",
+    "sounds": [
+      {
+        "name": "is_it_verity:auto"
+      }
+    ]
+  },
+  "gd_easy": {
+    "subtitle": "subtitles.is_it_verity.gd_easy",
+    "sounds": [
+      {
+        "name": "is_it_verity:easy"
+      }
+    ]
+  },
+  "gd_normal": {
+    "subtitle": "subtitles.is_it_verity.gd_normal",
+    "sounds": [
+      {
+        "name": "is_it_verity:normal"
+      }
+    ]
+  },
+  "gd_hard": {
+    "subtitle": "subtitles.is_it_verity.gd_hard",
+    "sounds": [
+      {
+        "name": "is_it_verity:hard"
+      }
+    ]
+  },
+  "gd_harder": {
+    "subtitle": "subtitles.is_it_verity.gd_harder",
+    "sounds": [
+      {
+        "name": "is_it_verity:harder"
+      }
+    ]
+  },
+  "gd_insane": {
+    "subtitle": "subtitles.is_it_verity.gd_insane",
+    "sounds": [
+      {
+        "name": "is_it_verity:insane"
+      }
+    ]
+  },
+  "gd_easy_demon": {
+    "subtitle": "subtitles.is_it_verity.gd_easy_demon",
+    "sounds": [
+      {
+        "name": "is_it_verity:easy-demon"
+      }
+    ]
+  },
+  "gd_medium_demon": {
+    "subtitle": "subtitles.is_it_verity.gd_medium_demon",
+    "sounds": [
+      {
+        "name": "is_it_verity:medium-demon"
+      }
+    ]
+  },
+  "gd_hard_demon": {
+    "subtitle": "subtitles.is_it_verity.gd_hard_demon",
+    "sounds": [
+      {
+        "name": "is_it_verity:hard-demon"
+      }
+    ]
+  },
+  "gd_insane_demon": {
+    "subtitle": "subtitles.is_it_verity.gd_insane_demon",
+    "sounds": [
+      {
+        "name": "is_it_verity:insane-demon"
+      }
+    ]
+  },
+  "gd_extreme_demon": {
+    "subtitle": "subtitles.is_it_verity.gd_extreme_demon",
+    "sounds": [
+      {
+        "name": "is_it_verity:extreme-demon"
+      }
+    ]
+  }
+}

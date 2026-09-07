@@ -1,6 +1,9 @@
 {
   "variants": {
-    "": {
+    "looking=false": {
+      "model": "is_it_verity:block/gd-faces/hard"
+    },
+    "looking=true": {
       "model": "is_it_verity:block/gd-faces/hard"
     }
   }

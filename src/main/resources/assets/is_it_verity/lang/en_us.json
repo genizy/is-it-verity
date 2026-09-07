@@ -9167,5 +9167,17 @@
   "itemGroup.is_it_verity.gd_faces": "GD Faces",
   "itemGroup.is_it_verity.is_it_verity": "Is It VERITY?",
   "itemGroup.is_it_verity.player_blocks": "Player Blocks",
-  "itemGroup.is_it_verity.wordle": "Wordle"
+  "itemGroup.is_it_verity.wordle": "Wordle",
+  "subtitles.is_it_verity.gd_auto": "Auto rated",
+  "subtitles.is_it_verity.gd_easy": "Easy rated",
+  "subtitles.is_it_verity.gd_easy_demon": "Easy Demon rated",
+  "subtitles.is_it_verity.gd_extreme_demon": "Extreme Demon rated",
+  "subtitles.is_it_verity.gd_hard": "Hard rated",
+  "subtitles.is_it_verity.gd_hard_demon": "Hard Demon rated",
+  "subtitles.is_it_verity.gd_harder": "Harder rated",
+  "subtitles.is_it_verity.gd_insane": "Insane rated",
+  "subtitles.is_it_verity.gd_insane_demon": "Insane Demon rated",
+  "subtitles.is_it_verity.gd_medium_demon": "Medium Demon rated",
+  "subtitles.is_it_verity.gd_normal": "Normal rated",
+  "subtitles.is_it_verity.gd_unrated": "Unrated rated"
 }

@@ -1,6 +1,9 @@
 {
   "variants": {
-    "": {
+    "looking=false": {
+      "model": "is_it_verity:block/gd-faces/insane_demon"
+    },
+    "looking=true": {
       "model": "is_it_verity:block/gd-faces/insane_demon"
     }
   }

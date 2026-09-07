@@ -1,0 +1,25 @@
+{
+  "fabric:type": "is_it_verity:sphere",
+  "parent": "is_it_verity:block/base/verity_base",
+  "outline": 0.025,
+  "radius": 0.46,
+  "horns": [
+    {
+      "around": 31.5,
+      "tilt": 25.0,
+      "length": 0.199,
+      "width": 0.098
+    },
+    {
+      "around": 148.5,
+      "tilt": 25.0,
+      "length": 0.199,
+      "width": 0.098
+    }
+  ],
+  "textures": {
+    "sphere": "is_it_verity:block/gd-faces/medium-demon",
+    "particle": "#sphere",
+    "horn": "is_it_verity:block/gd-faces/horn"
+  }
+}

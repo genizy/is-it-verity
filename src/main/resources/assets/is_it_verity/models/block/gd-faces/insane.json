@@ -1,0 +1,9 @@
+{
+  "fabric:type": "is_it_verity:sphere",
+  "parent": "is_it_verity:block/base/verity_base",
+  "outline": 0.025,
+  "textures": {
+    "sphere": "is_it_verity:block/gd-faces/insane",
+    "particle": "#sphere"
+  }
+}

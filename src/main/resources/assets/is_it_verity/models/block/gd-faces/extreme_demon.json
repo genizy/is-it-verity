@@ -1,0 +1,49 @@
+{
+  "fabric:type": "is_it_verity:sphere",
+  "parent": "is_it_verity:block/base/verity_base",
+  "outline": 0.025,
+  "radius": 0.46,
+  "horns": [
+    {
+      "around": -175.5,
+      "tilt": 25.0,
+      "length": 0.107,
+      "width": 0.104
+    },
+    {
+      "around": -4.5,
+      "tilt": 25.0,
+      "length": 0.107,
+      "width": 0.104
+    },
+    {
+      "around": 29.3,
+      "tilt": 25.0,
+      "length": 0.185,
+      "width": 0.119
+    },
+    {
+      "around": 58.4,
+      "tilt": 25.0,
+      "length": 0.134,
+      "width": 0.065
+    },
+    {
+      "around": 121.7,
+      "tilt": 25.0,
+      "length": 0.133,
+      "width": 0.063
+    },
+    {
+      "around": 150.8,
+      "tilt": 25.0,
+      "length": 0.185,
+      "width": 0.119
+    }
+  ],
+  "textures": {
+    "sphere": "is_it_verity:block/gd-faces/extreme-demon",
+    "particle": "#sphere",
+    "horn": "is_it_verity:block/gd-faces/horn"
+  }
+}

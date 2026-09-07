@@ -15,6 +15,8 @@ import net.fabricmc.fabric.api.client.renderer.v1.mesh.QuadEmitter;
 import net.fabricmc.fabric.api.client.renderer.v1.model.MeshQuadCollection;
 import net.fabricmc.fabric.api.client.renderer.v1.model.ModelStateHelper;
 
+import breadbb.is_it_verity.client.Materials;
+
 public record MeshGeometry(String textureSlot, float[] triangles) implements UnbakedGeometry {
 	private static final int STRIDE = 24;
 
@@ -22,7 +24,7 @@ public record MeshGeometry(String textureSlot, float[] triangles) implements Unb
 	public QuadCollection bake(TextureSlots textures, ModelBaker baker, ModelState settings, ModelDebugName name) {
 		Material material = textures.getMaterial(textureSlot);
 
-		Material.Baked sprite = baker.materials().get(material, name);
+		Material.Baked sprite = Materials.bake(baker, material, name);
 
 		MutableMesh mesh = Renderer.get().mutableMesh();
 		QuadEmitter emitter = mesh.emitter();

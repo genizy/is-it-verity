@@ -17,6 +17,8 @@ import net.fabricmc.fabric.api.client.renderer.v1.mesh.QuadEmitter;
 import net.fabricmc.fabric.api.client.renderer.v1.model.MeshQuadCollection;
 import net.fabricmc.fabric.api.client.renderer.v1.model.ModelStateHelper;
 
+import breadbb.is_it_verity.client.Materials;
+
 public record SphereGeometry(String textureSlot, String hornSlot, int rings, int segments, float radius,
 		float outline, List<SphereGeometry.Horn> horns,
 		List<SphereGeometry.Eye> eyes) implements UnbakedGeometry {
@@ -37,10 +39,10 @@ public record SphereGeometry(String textureSlot, String hornSlot, int rings, int
 	public QuadCollection bake(TextureSlots textures, ModelBaker baker, ModelState settings, ModelDebugName name) {
 		Material material = textures.getMaterial(textureSlot);
 
-		Material.Baked sprite = baker.materials().get(material, name);
+		Material.Baked sprite = Materials.bake(baker, material, name);
 
 		Material hornMaterial = textures.getMaterial(hornSlot);
-		Material.Baked hornSprite = hornMaterial == null ? sprite : baker.materials().get(hornMaterial, name);
+		Material.Baked hornSprite = hornMaterial == null ? sprite : Materials.bake(baker, hornMaterial, name);
 
 		MutableMesh mesh = Renderer.get().mutableMesh();
 		QuadEmitter emitter = mesh.emitter();
@@ -52,7 +54,7 @@ public record SphereGeometry(String textureSlot, String hornSlot, int rings, int
 
 		for (Eye eye : eyes) {
 			Material lens = textures.getMaterial(eye.slot());
-			Material.Baked baked = lens == null ? sprite : baker.materials().get(lens, name);
+			Material.Baked baked = lens == null ? sprite : Materials.bake(baker, lens, name);
 			float[] spot = direction(eye.around(), eye.tilt());
 			float reach = shell * eye.sink();
 

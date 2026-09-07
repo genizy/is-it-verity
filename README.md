@@ -6,6 +6,7 @@ Mod based on videos by [NathanLive](https://www.youtube.com/channel/UCxhU6cKU08w
 Cubix and Nathan Video Example: https://youtu.be/32nPJGbpOqA
 
 
+
 ## DISCLAIMER:
 This mod adds nothing other than blocks, no new functionality is added, for example:
 - Veritys do NOTHING
@@ -38,9 +39,10 @@ Suggest new player heads at [the issue tracker](https://github.com/genizy/is-it-
 
 <details>
   <summary>Veritys</summary>
-  <img src="https://cdn.modrinth.com/data/3ZiPEwXg/images/823849693a7f12cd8bf0d6162d832b3dda6c7078.png"></img>
+  <img src="https://cdn.modrinth.com/data/3ZiPEwXg/images/1b0f3d07534ac8282ec8c3ffe58e21916b929d05.png"></img>
+  <img src="https://cdn.modrinth.com/data/3ZiPEwXg/images/54763f63fe0725d6d57c41455758285c1917cc5b.png"></img>
   
-  These include, Verity, Lovity, Falsity, Cruelty, Black Verity, Green Verity and Quackity
+  These include, Verity, Lovity, Falsity, Cruelty, Black Verity, Green Verity, Quackity, Moggity, Freakity and Obesity (5 sizes)
 
   Suggest new Veritys at [the issue tracker](https://github.com/genizy/is-it-verity/issues)
 
@@ -54,6 +56,15 @@ Suggest new player heads at [the issue tracker](https://github.com/genizy/is-it-
   This screenshot does NOT include every single emoji, there are around 4000 emojis so fitting them all in 1 screenshot is kinda impossible
 
   I had to compress the emojis into worse quality or the mod would be at LEAST 200mb
+
+  
+</details>
+
+<details>
+  <summary>GD Faces</summary>
+  <img src="https://cdn.modrinth.com/data/3ZiPEwXg/images/c47aab533d9f3c503f095c3ffa9e17d09af6bd10.png"></img>
+
+  happy little faces
 
   
 </details>

@@ -4,6 +4,7 @@ import net.minecraft.resources.Identifier;
 
 import net.fabricmc.api.ModInitializer;
 
+import breadbb.is_it_verity.brainrot.BrainrotBlocks;
 import breadbb.is_it_verity.emoji.EmojiBlocks;
 import breadbb.is_it_verity.gdfaces.GdFaceBlocks;
 import breadbb.is_it_verity.player.PlayerBlocks;
@@ -16,10 +17,11 @@ public class Is_it_verity implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		VerityBlocks.init();
-		EmojiBlocks.init();
+		BrainrotBlocks.init();
 		PlayerBlocks.init();
 		WordleBlocks.init();
 		GdFaceBlocks.init();
+		EmojiBlocks.init();
 	}
 
 	public static Identifier id(String path) {

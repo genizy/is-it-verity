@@ -15,15 +15,23 @@ import net.minecraft.world.level.block.state.BlockState;
 import breadbb.is_it_verity.sphere.VerityBlocks;
 
 public class ObesityBlock extends Block {
-	private final int size;
+	private final int width;
+	private final int height;
+	private final int depth;
 
 	public ObesityBlock(Properties settings, int size) {
+		this(settings, size, size, size);
+	}
+
+	public ObesityBlock(Properties settings, int width, int height, int depth) {
 		super(settings);
-		this.size = size;
+		this.width = width;
+		this.height = height;
+		this.depth = depth;
 	}
 
 	public int size() {
-		return size;
+		return Math.max(width, Math.max(height, depth));
 	}
 
 	@Override
@@ -67,9 +75,9 @@ public class ObesityBlock extends Block {
 	private List<BlockPos> parts(BlockPos base) {
 		List<BlockPos> parts = new ArrayList<>();
 
-		for (int x = 0; x < size; x++) {
-			for (int y = 0; y < size; y++) {
-				for (int z = 0; z < size; z++) {
+		for (int x = 0; x < width; x++) {
+			for (int y = 0; y < height; y++) {
+				for (int z = 0; z < depth; z++) {
 					if (x != 0 || y != 0 || z != 0) {
 						parts.add(base.offset(x, y, z));
 					}

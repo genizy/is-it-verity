@@ -109,6 +109,7 @@ public final class VerityBlocks {
 						.strength(1.0F)
 						.sound(SoundType.STONE)
 						.noOcclusion()
+						.noTerrainParticles()
 						.isSuffocating((state, level, pos) -> false)
 						.isViewBlocking((state, level, pos) -> false)
 						.noLootTable()

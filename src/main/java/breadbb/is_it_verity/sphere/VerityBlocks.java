@@ -41,6 +41,9 @@ public final class VerityBlocks {
 	public static final Block QUACKITY_BLOCK = register("quackity");
 	public static final Block FREAKITY_BLOCK = register("freakity");
 	public static final Block MOGGITY_BLOCK = register("moggity");
+	public static final Block POOPITY_BLOCK = register("poopity");
+	public static final Block GAYITY_BLOCK = register("gayity");
+	public static final Block OBSURITY_BLOCK = register("obsurity");
 	public static final Block OBESITY_FILLER = registerFiller("obesity_filler");
 	public static final Block OBESITY_BLOCK = registerObesity("obesity", 1);
 	public static final Block MEDIUM_OBESITY_BLOCK = registerObesity("medium_obesity", 2);

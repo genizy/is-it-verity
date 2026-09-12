@@ -44,6 +44,7 @@ public final class PlayerBlocks {
 	public static final Block STARIAZ = register("stariaz");
 	public static final Block BABONCIA5 = register("baboncia5");
 	public static final Block FIVESYLVEON = register("5sylveon");
+	public static final Block MARS09 = register("mars09");
  	// ---------------
 	private PlayerBlocks() {
 	}

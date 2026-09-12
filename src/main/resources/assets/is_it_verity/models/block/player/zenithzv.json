@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/zenithzv/front",
+    "up": "is_it_verity:block/player/zenithzv/top",
+    "down": "is_it_verity:block/player/zenithzv/bottom",
+    "west": "is_it_verity:block/player/zenithzv/front",
+    "east": "is_it_verity:block/player/zenithzv/back",
+    "north": "is_it_verity:block/player/zenithzv/right",
+    "south": "is_it_verity:block/player/zenithzv/left"
+  }
+}

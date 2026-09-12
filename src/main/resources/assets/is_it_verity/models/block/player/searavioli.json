@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/searavioli/front",
+    "up": "is_it_verity:block/player/searavioli/top",
+    "down": "is_it_verity:block/player/searavioli/bottom",
+    "west": "is_it_verity:block/player/searavioli/front",
+    "east": "is_it_verity:block/player/searavioli/back",
+    "north": "is_it_verity:block/player/searavioli/right",
+    "south": "is_it_verity:block/player/searavioli/left"
+  }
+}

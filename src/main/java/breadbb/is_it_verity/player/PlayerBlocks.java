@@ -31,6 +31,19 @@ public final class PlayerBlocks {
 	public static final Block CUBIX_TUBE = register("cubix_tube");
 	public static final Block NATHANLIVE = register("nathanlive");
 	public static final Block MRTICKLES = register("mrtickles");
+	public static final Block RIVVERSS = register("rivverss");
+	public static final Block NINE2K16 = register("nine2k16");
+	public static final Block ACOLOTLGAMES = register("acolotlgames");
+	public static final Block SPINKLEDORB = register("spinkledorb");
+	public static final Block WOOSHMC = register("wooshmc");
+	public static final Block MAGMAVR = register("magmavr");
+	public static final Block ZAPRYN = register("zapryn");
+	public static final Block SEARAVIOLI = register("searavioli");
+	public static final Block ZENITHZV = register("zenithzv");
+	public static final Block ARKZ_ONNOKIA = register("arkz_onnokia");
+	public static final Block STARIAZ = register("stariaz");
+	public static final Block BABONCIA5 = register("baboncia5");
+	public static final Block FIVESYLVEON = register("5sylveon");
  	// ---------------
 	private PlayerBlocks() {
 	}

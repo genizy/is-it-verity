@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/spinkledorb/front",
+    "up": "is_it_verity:block/player/spinkledorb/top",
+    "down": "is_it_verity:block/player/spinkledorb/bottom",
+    "west": "is_it_verity:block/player/spinkledorb/front",
+    "east": "is_it_verity:block/player/spinkledorb/back",
+    "north": "is_it_verity:block/player/spinkledorb/right",
+    "south": "is_it_verity:block/player/spinkledorb/left"
+  }
+}

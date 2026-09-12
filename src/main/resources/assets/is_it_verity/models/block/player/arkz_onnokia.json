@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/arkz_onnokia/front",
+    "up": "is_it_verity:block/player/arkz_onnokia/top",
+    "down": "is_it_verity:block/player/arkz_onnokia/bottom",
+    "west": "is_it_verity:block/player/arkz_onnokia/front",
+    "east": "is_it_verity:block/player/arkz_onnokia/back",
+    "north": "is_it_verity:block/player/arkz_onnokia/right",
+    "south": "is_it_verity:block/player/arkz_onnokia/left"
+  }
+}

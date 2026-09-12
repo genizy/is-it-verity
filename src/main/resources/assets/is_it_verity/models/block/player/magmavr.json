@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/magmavr/front",
+    "up": "is_it_verity:block/player/magmavr/top",
+    "down": "is_it_verity:block/player/magmavr/bottom",
+    "west": "is_it_verity:block/player/magmavr/front",
+    "east": "is_it_verity:block/player/magmavr/back",
+    "north": "is_it_verity:block/player/magmavr/right",
+    "south": "is_it_verity:block/player/magmavr/left"
+  }
+}

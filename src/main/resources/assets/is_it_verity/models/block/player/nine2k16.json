@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/nine2k16/front",
+    "up": "is_it_verity:block/player/nine2k16/top",
+    "down": "is_it_verity:block/player/nine2k16/bottom",
+    "west": "is_it_verity:block/player/nine2k16/front",
+    "east": "is_it_verity:block/player/nine2k16/back",
+    "north": "is_it_verity:block/player/nine2k16/right",
+    "south": "is_it_verity:block/player/nine2k16/left"
+  }
+}

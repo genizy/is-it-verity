@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/zapryn/front",
+    "up": "is_it_verity:block/player/zapryn/top",
+    "down": "is_it_verity:block/player/zapryn/bottom",
+    "west": "is_it_verity:block/player/zapryn/front",
+    "east": "is_it_verity:block/player/zapryn/back",
+    "north": "is_it_verity:block/player/zapryn/right",
+    "south": "is_it_verity:block/player/zapryn/left"
+  }
+}

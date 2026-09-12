@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/acolotlgames/front",
+    "up": "is_it_verity:block/player/acolotlgames/top",
+    "down": "is_it_verity:block/player/acolotlgames/bottom",
+    "west": "is_it_verity:block/player/acolotlgames/front",
+    "east": "is_it_verity:block/player/acolotlgames/back",
+    "north": "is_it_verity:block/player/acolotlgames/right",
+    "south": "is_it_verity:block/player/acolotlgames/left"
+  }
+}

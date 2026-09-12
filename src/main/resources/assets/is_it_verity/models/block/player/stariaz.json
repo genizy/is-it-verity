@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/stariaz/front",
+    "up": "is_it_verity:block/player/stariaz/top",
+    "down": "is_it_verity:block/player/stariaz/bottom",
+    "west": "is_it_verity:block/player/stariaz/front",
+    "east": "is_it_verity:block/player/stariaz/back",
+    "north": "is_it_verity:block/player/stariaz/right",
+    "south": "is_it_verity:block/player/stariaz/left"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "is_it_verity:block/base/player_base",
+  "textures": {
+    "particle": "is_it_verity:block/player/5sylveon/front",
+    "up": "is_it_verity:block/player/5sylveon/top",
+    "down": "is_it_verity:block/player/5sylveon/bottom",
+    "west": "is_it_verity:block/player/5sylveon/front",
+    "east": "is_it_verity:block/player/5sylveon/back",
+    "north": "is_it_verity:block/player/5sylveon/right",
+    "south": "is_it_verity:block/player/5sylveon/left"
+  }
+}

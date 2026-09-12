@@ -9218,5 +9218,9 @@
   "subtitles.is_it_verity.gd_insane_demon": "Insane Demon rated",
   "subtitles.is_it_verity.gd_medium_demon": "Medium Demon rated",
   "subtitles.is_it_verity.gd_normal": "Normal rated",
-  "subtitles.is_it_verity.gd_unrated": "Unrated rated"
+  "subtitles.is_it_verity.gd_unrated": "Unrated rated",
+  "block.is_it_verity.pointy": "Pointy",
+  "item.is_it_verity.pointy": "Pointy",
+  "block.is_it_verity.squarity": "Squarity",
+  "item.is_it_verity.squarity": "Squarity"
 }

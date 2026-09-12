@@ -8,6 +8,7 @@ import breadbb.is_it_verity.brainrot.BrainrotBlocks;
 import breadbb.is_it_verity.emoji.EmojiBlocks;
 import breadbb.is_it_verity.gdfaces.GdFaceBlocks;
 import breadbb.is_it_verity.player.PlayerBlocks;
+import breadbb.is_it_verity.social_media.SocialMediaBlocks;
 import breadbb.is_it_verity.sphere.VerityBlocks;
 import breadbb.is_it_verity.wordle.WordleBlocks;
 
@@ -19,6 +20,7 @@ public class Is_it_verity implements ModInitializer {
 		VerityBlocks.init();
 		BrainrotBlocks.init();
 		PlayerBlocks.init();
+		SocialMediaBlocks.init();
 		WordleBlocks.init();
 		GdFaceBlocks.init();
 		EmojiBlocks.init();

@@ -4557,6 +4557,8 @@
     "is_it_verity:wrong_y",
     "is_it_verity:wrong_z",
     "is_it_verity:pointy",
-    "is_it_verity:squarity"
+    "is_it_verity:squarity",
+    "is_it_verity:pregnacy",
+    "is_it_verity:feet_verity"
   ]
 }

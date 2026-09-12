@@ -42,7 +42,7 @@ Suggest new player heads at [the issue tracker](https://github.com/genizy/is-it-
   <img src="https://cdn.modrinth.com/data/3ZiPEwXg/images/1b0f3d07534ac8282ec8c3ffe58e21916b929d05.png"></img>
   <img src="https://cdn.modrinth.com/data/3ZiPEwXg/images/54763f63fe0725d6d57c41455758285c1917cc5b.png"></img>
   
-  These include, Verity, Lovity, Falsity, Cruelty, Black Verity, Green Verity, Quackity, Moggity, Freakity, Poopity, Gayity, Obsurity, Pointy, Squarity and Obesity (5 sizes)
+  These include, Verity, Lovity, Falsity, Cruelty, Black Verity, Green Verity, Quackity, Moggity, Freakity, Poopity, Gayity, Obsurity, Pointy, Squarity, Pregnacy, Feet Verity and Obesity (5 sizes)
 
   Suggest new Veritys at [the issue tracker](https://github.com/genizy/is-it-verity/issues)
 

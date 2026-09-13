@@ -32,6 +32,7 @@ public final class BrainrotBlocks {
 	public static final Block SAHUR_BLOCK = registerTall("tung_tung_tung_sahur", 2);
 	public static final Block SAHUR_HEAD_BLOCK = register("tung_tung_tung_sahur_head");
 	public static final Block GUBBY_BLOCK = register("gubby");
+	public static final Block THE_HAM_BLOCK = register("the_ham");
 
 	private BrainrotBlocks() {
 	}

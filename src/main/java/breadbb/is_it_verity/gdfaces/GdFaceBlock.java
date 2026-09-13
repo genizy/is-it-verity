@@ -58,7 +58,7 @@ public class GdFaceBlock extends VerityBlock implements EntityBlock {
 	protected RenderShape getRenderShape(BlockState state) {
 		return state.getValue(LOOKING) ? RenderShape.INVISIBLE : RenderShape.MODEL;
 	}
-
+/*
 	@Override
 	protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player,
 			BlockHitResult hit) {
@@ -96,4 +96,5 @@ public class GdFaceBlock extends VerityBlock implements EntityBlock {
 		BlockEntity blockEntity = level.getBlockEntity(pos);
 		return blockEntity != null && blockEntity.triggerEvent(id, param);
 	}
+	*/
 }

@@ -9245,5 +9245,7 @@
   "subtitles.is_it_verity.gd_insane_demon": "Insane Demon rated",
   "subtitles.is_it_verity.gd_medium_demon": "Medium Demon rated",
   "subtitles.is_it_verity.gd_normal": "Normal rated",
-  "subtitles.is_it_verity.gd_unrated": "Unrated rated"
+  "subtitles.is_it_verity.gd_unrated": "Unrated rated",
+  "block.is_it_verity.the_ham": "The Ham",
+  "item.is_it_verity.the_ham": "The Ham"
 }
